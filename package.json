@@ -1,0 +1,46 @@
+{
+  "name": "create-mern-project",
+  "version": "1.0.0",
+  "description": "🚀 A simple and powerful CLI tool to quickly scaffold a full-stack MERN (MongoDB, Express.js, React, Node.js) application with ready-to-use structure and boilerplate code. Created by Madhav Gediya.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-mern-project": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
+  "keywords": [
+    "mern",
+    "cli",
+    "boilerplate",
+    "scaffolding",
+    "react",
+    "express",
+    "mongodb",
+    "node",
+    "fullstack",
+    "starter",
+    "madhav-gediya"
+  ],
+  "author": {
+    "name": "Madhav Gediya",
+    "email": "madhavgediya1@gmail.com",
+    "url": "https://github.com/madhavgediya"
+  },
+  "license": "MIT",
+  "homepage": "https://www.npmjs.com/package/create-mern-project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madhavgediya/create-mern-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/madhavgediya/create-mern-project/issues"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.7",
+    "ora": "^8.0.1"
+  }
+}
